@@ -1,0 +1,9 @@
+<!--pages/record/record.wxml-->
+<navigation-bar title="领红包" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<view class="container">
+  <view class="redpack-top"></view>
+  <view class="avatar"></view>
+  <view class="desc">XXX撒了赏金</view>
+  <view class="open-btn"><text>開</text></view>
+  <t-button>一起抢</t-button>
+</view>

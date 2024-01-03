@@ -1,0 +1,54 @@
+/* pages/record/record.wxss */
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(180, 57, 57);
+}
+.avatar {
+  position: absolute;
+  top: 188rpx;
+  left:50%;
+  transform: translateX(-50%);
+  width: 150rpx;
+  height: 150rpx;
+  background-color: white;
+}
+
+.desc {
+  position: absolute;
+  top: 400rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: x-large;
+  color: #f8d87a;
+}
+
+.open-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+  font-size: xxx-large;
+  background-color: #f8d87a;
+  border-color: #000;
+  box-shadow: 0 0 0 60rpx #f8d87a;
+}
+
+.redpack-top {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  width: 1500rpx;
+  height: calc(50vh - 50rpx);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: rgb(228, 72, 72);
+}

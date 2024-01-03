@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "navigation-bar": "/components/navigation-bar/navigation-bar",
+    "t-input": "tdesign-miniprogram/input/input",
+    "t-upload": "tdesign-miniprogram/upload/upload",
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-link": "tdesign-miniprogram/link/link"
+  }
+}

@@ -1,0 +1,17 @@
+/* pages/create.wxss */
+.input-example {
+  margin: 0 32rpx;
+}
+.tips {
+  text-align: right !important;
+}
+.button-example {
+  margin: 0 32rpx;
+}
+.wrapper {
+  margin: 16rpx 32rpx;
+}
+.label {
+  margin-bottom: 16rpx;
+  font-size: small;
+}

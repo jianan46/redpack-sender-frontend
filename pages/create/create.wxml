@@ -1,0 +1,16 @@
+<!--pages/create.wxml-->
+<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view>
+  <t-input label="金额" placeholder="0.00" suffix="元" align="right" type="number" bindchange="onPriceInput" tips="{{priceError ? '请输入正确的价格' : ''}}" t-class-tips="tips" />
+  <t-input label="数量" placeholder="填写个数" suffix="个" align="right" type="number" />
+  <t-input label="口令" placeholder="好友说对口令即可抢赏金"></t-input>
+  <view class="wrapper">
+    <text class="label">视频</text>
+    <t-upload mediaType="{{['video']}}" max="{{1}}" files="{{fileList}}" bind:add="handleAdd" bind:remove="handleRemove">
+    </t-upload>
+  </view>
+  <view class="button-example">
+    <t-button theme="primary" size="large" block bindgetuserinfo="sendHandler" open-type="getUserInfo">马上发</t-button>
+  </view>
+  <t-link size="small" theme="primary" content="查看记录" hover navigator-props="{{recordProps}}"/>
+</scroll-view>
